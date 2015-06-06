@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.songify.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/startRecord"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:text="Record" />
+    <Button
+        android:id="@+id/stopRecord"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:text="Stop Record" />
+    <Button
+        android:id="@+id/playback"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:text="Play" />
+    <Button
+        android:id="@+id/stopPlayback"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:text="Stop" />
+
+</FrameLayout>
+
